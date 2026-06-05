@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Trabalhando com Links!</h1>
+    <h2>Links Externos</h2>
+    <p>Links que abrem uma outra página dentro dessa</p>
+    <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Ligações%20em%20toda%20parte.pdf">Acesse a aula em pdf</a>
+    <p>Para sites que não tem originalmente Pt-Br como língua principal <br>do site, é possível avisar ao navegador que precisa de tradução, caso o <br>visitante opte por traduzir a página. É só adicionar hreflang=*Idioma original <br> do site antes de colocar o título do hyperlink.</p> <!--Copiar tags do atributo TARGET no pdf da aula 10-->
+    <p>Agora, para adicionar a página do link numa nova guia, usamos o <br>target=_blank para fazer esse trabalho</p>
+    <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Ligações%20em%20toda%20parte.pdf" target="_blank">Aula em pdf</a> <!--Copiar muitas coisas da aula 10.-->
+    <hr>
+    <h2>Links Internos</h2>
+    <p>Links internos que levam de um site ao outro mas na mesma guia</p>
+    <p>Para acessar ao site é só <a href="pag2.html" rel="next">clicar aqui</a></p>
+    <br>
+    <p>Também temos nossa página de notícias! Para acessa-lá, <a href="noticias/pag3.html" rel="_self">clique aqui!</a></p>
+    <hr>
+    <h2>Link para Downloads</h2>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="livro/10%20-%20Ligações%20em%20toda%20parte" target="_blank">Aula 10 do Curso</a></li>
+        <li><a href="livro/birds_of_paradise.zip" download="livro/birds_of_paradise">Fonte de Letras em ZIP</a></li>
+    </ul>
+</body>
+</html>

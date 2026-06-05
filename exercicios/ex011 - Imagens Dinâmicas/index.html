@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir o site em dispositivos diferentes ou <br>aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="imagens/imagempequena.png" type="image/png">
+        <source media="(max-width: 1020px)" srcset="imagens/imagemmedia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <h1>Reproduzindo mídias de áudios</h1>
+    <p>Vendo como reproduzir áudios na HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midias/Ruff Money - The Grey Room _ Clark Sims.mp3" type="audio/mpeg">
+        <source src="midias/Ruff Money - The Grey Room _ Clark Sims.mp3" type="audio/ogg">
+        <source src="midias/Ruff Money - The Grey Room _ Clark Sims.mp3" type="audio/wav">
+        <p>Seu navegador não suporta áudio <a href="midias/Ruff Money - The Grey Room _ Clark Sims.mp3" download="midias/ruff%money%-%the%grey%room%_&clark&sims.mp3"></a></p>
+    </audio>
+</body>
+</html>
