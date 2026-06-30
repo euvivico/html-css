@@ -12,10 +12,12 @@
         table{
             border-collapse: collapse;
             width: 400px;
+            height: 400px;
         }
         td {
             border: 1px solid black;
             padding: 5px;
+            text-align: center;
         }
         
         tr.linha {
@@ -25,28 +27,34 @@
         td.celula {
             background-color: aquamarine;
         }
+        td.vertical {
+            vertical-align: top;
+        }
+        td.numero {
+            text-align: right;
+        }
     </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
     <table>
         <tr>
-            <td>A1</td>
+            <td class="vertical">A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
         <tr class="linha">
-            <td>A2</td>
+            <td class="vertical">A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
-            <td>A3</td>
-            <td>B3</td>
+            <td class="vertical">A3</td>
+            <td class="numero">B3</td>
             <td class="celula">C3</td>
         </tr>
         <tr>
-            <td>A4</td>
+            <td class="vertical">A4</td>
             <td>B4</td>
             <td>C4</td>
         </tr>
